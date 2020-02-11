@@ -3,7 +3,7 @@ contador = 0
 ocorrencias = 4
 
 while contador < ocorrencias:
-    notas.append(int(input("Informe a nota por favor:")))
+    notas.append(float(input("Informe a nota por favor:")))
     contador+=1
 
 media = sum(notas)/ocorrencias
